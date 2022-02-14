@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SDUgram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="market">Market</string>
+    <string name="person">Person</string>
+    <string name="home">Home</string>
+    <string name="post">post</string>
+    <string name="name">SDUgram</string>
+</resources>
