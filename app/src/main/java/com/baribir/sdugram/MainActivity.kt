@@ -1,9 +1,12 @@
 package com.baribir.sdugram
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
+import com.baribir.sdugram.Market.MarketFragment
+import com.baribir.sdugram.Market.SearchActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

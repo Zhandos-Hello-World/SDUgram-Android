@@ -11,20 +11,16 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="top">
+        android:layout_gravity="top"
+        android:paddingBottom="16dp">
 
-        <TextView
+        <ImageView
             android:id="@+id/title"
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:text="Sdugram Shops"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="26sp"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_web_1024px_512px"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/search_text"
@@ -35,11 +31,11 @@
             app:layout_constraintTop_toBottomOf="@id/title"
             app:layout_constraintEnd_toEndOf="parent"
             android:drawableStart="@drawable/ic_baseline_search_24"
-            android:hint="Search shops"
+            android:hint="@string/search"
             android:inputType="text"
             android:padding="8dp"
             android:paddingStart="16dp"
-            />
+            android:importantForAutofill="no" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <GridView
@@ -47,6 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:horizontalSpacing="6dp"
+        android:verticalSpacing="6dp"
         android:numColumns="2"
-        android:verticalSpacing="6dp" />
+        />
 </LinearLayout>

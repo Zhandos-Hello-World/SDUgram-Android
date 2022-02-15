@@ -16,7 +16,7 @@
         tools:layout="@layout/fragment_post" />
     <fragment
         android:id="@+id/personFragment"
-        android:name="com.baribir.sdugram.PersonFragment"
+        android:name="com.baribir.sdugram.Person.PersonFragment"
         android:label="fragment_person"
         tools:layout="@layout/fragment_person" />
 </navigation>
