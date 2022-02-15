@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/marketFragment"
-        android:name="com.baribir.sdugram.MarketFragment"
+        android:name="com.baribir.sdugram.Market.MarketFragment"
         android:label="fragment_market"
         tools:layout="@layout/fragment_market" />
     <fragment
