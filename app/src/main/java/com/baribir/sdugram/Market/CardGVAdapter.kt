@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import com.baribir.sdugram.R
@@ -13,15 +14,16 @@ class CardGVAdapter(context: Context, resource: Int = 0, objects: MutableList<Ca
     ArrayAdapter<CardModel>(context, resource, objects) {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val listView = convertView ?: LayoutInflater.from(context).
+        val view = convertView ?: LayoutInflater.from(context).
         inflate(R.layout.card_view, parent, false)
 
-        val courseModel = getItem(position)
-        val cardText = listView.findViewById<TextView>(R.id.text)
-        val cardImage = listView.findViewById<ImageView>(R.id.image)
-        cardText.setText(courseModel?.name)
-        courseModel?.imageId?.let { cardImage.setImageResource(it) }
+        val cardModel = getItem(position)
+        val cardText = view.findViewById<TextView>(R.id.text)
+        val cardImage = view.findViewById<ImageView>(R.id.image)
+        
 
-        return listView
+        cardText.text = cardModel?.name
+        cardModel?.imageId?.let { cardImage.setImageResource(it) }
+        return view
     }
 }

@@ -33,12 +33,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
                 android:textAlignment="center"
-                app:layout_constraintBottom_toTopOf="@+id/imageButton"
+                app:layout_constraintBottom_toTopOf="@+id/favourite"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/favourite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/ic_baseline_favorite_border_24_black"
@@ -51,7 +51,7 @@
             android:id="@+id/price_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:text="340 000тг"
              />
         <TextView

@@ -33,21 +33,13 @@ class MarketFragment : Fragment() {
         list.add(CardModel("Python", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
         list.add(CardModel("Ruby", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
         list.add(CardModel("C#", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Java", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("C++", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Python", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Ruby", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("C#", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Java", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("C++", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Python", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Ruby", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("C#", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Java", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("C++", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Python", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("Ruby", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
-        list.add(CardModel("C#", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
+        list.add(CardModel("Hello", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
+        list.add(CardModel("Hi", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
+        list.add(CardModel("How", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
+        list.add(CardModel("are", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
+        list.add(CardModel("you", R.drawable.fruits, "Алматыю, Каскелен", "12 февр."))
+
+
 
         val cardGVAdapter = CardGVAdapter(view.context, objects = list)
         cardTV.adapter = cardGVAdapter
