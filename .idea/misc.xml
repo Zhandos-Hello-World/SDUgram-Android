@@ -3,28 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.234" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/drawable/baseline_local_grocery_store_24.xml" value="0.188" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.188" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.136" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/drawable/shape_edit_text.xml" value="0.136" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/layout/activity_main.xml" value="0.152" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/layout/fragment_market.xml" value="0.2" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/layout/fragment_person.xml" value="0.16" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/layout/fragment_post.xml" value="0.1" />
-        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/MyApplication7/app/src/main/res/menu/main_bottom_menu.xml" value="0.2234375" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/drawable/baseline_local_grocery_store_24.xml" value="0.234" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/drawable/shape.xml" value="0.234" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/drawable/shape_edit_text.xml" value="0.136" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/drawable/shape_edit_text_day.xml" value="0.234" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/drawable/shape_edit_text_night.xml" value="0.234" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/layout/activity_search.xml" value="0.264" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/layout/card_view.xml" value="0.4" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/layout/fragment_market.xml" value="0.2" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/layout/fragment_person.xml" value="0.264" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/layout/list_view.xml" value="0.2234375" />
-        <entry key="..\:/Users/Zhandos/Documents/GitHub/SDUgram-Android/app/src/main/res/menu/main_bottom_menu.xml" value="0.72" />
+        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/AlgorithmAndroidProject/app/src/main/res/layout/activity_main.xml" value="0.18597691321077384" />
+        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/AlgorithmAndroidProject/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/Users/Zhandos/AndroidStudioProjects/AlgorithmAndroidProject/app/src/main/res/layout/fragment_register.xml" value="0.176" />
       </map>
     </option>
   </component>
